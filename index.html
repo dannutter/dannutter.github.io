@@ -9,101 +9,139 @@
 <body>
     <div id="terminal">
         <div id="header">
-            <button onclick="closeAlert()">✖</button>
-            <button onclick="minimiseAlert()">🗕</button>
+            <button>✖</button>
+            <button>🗕</button>
             <button onclick="toggleMode()">💡</button>
-            <span class="user">~</span>
+            <span class="user">dan@yourcompany: ~</span>
         </div>
-        <div id="user-header">
-            <span class="user"><b>dan@yourcompany<span class="user-white">:<span class="user-blue">~</span>$</span></b></span>
-        </div>
-        <div id="progress-bar-container">
-            <div id="loading-text">0%</div><div id="progress-bar"></div>
-        </div>
-        <div id="content">
-            <p>===================<br>
-            |⠀⠀⠀Education⠀⠀⠀⠀|<br>
-            ===================</p>
-            <div class="lists">
-            <p class = list>
-                <span class="user-blue">Degree:</span><br>
-                Coventry University: B.Sc. Computer Science [2023]<br>
-                2:1 (66%)
-            </p>
-            <p class="list">
-                <span class="user-blue">Key Modules:</span><br>
-                Machine Learning and Related Applications, Big Data Programming, Advanced Algorithms, Data Science, Software Engineering, Security, Web API Development.
-            </p>
+        <div id="terminal-content">
+            <div id="user-header">
+                <span class="user"><b>dan@yourcompany<span class="user-white">:<span class="user-blue">~</span>$</span></b></span>
             </div>
-            <p>===================<br>
-            |⠀⠀⠀Statement⠀⠀⠀⠀|<br>
-            ===================<br>
-            Leveraging my experience gained during my university studies and side projects, I aim to contribute to the development of impactful software solutions. I hope to expand my knowledge and skills, allowing me to address real-world challenges with a focus on long-term, meaningful impact.</p>
-            <p>===================<br>
-            |⠀⠀⠀⠀Skills⠀⠀⠀⠀⠀|<br>
-            ===================</p>
-            <div class="lists">
-                <div class="list">
-                    <p class="user-blue">Tools:</p>
-                    <ul>
-                        <li>Version Control: Git</li>
-                        <li>Linux: Software configuration, system administration</li>
-                        <li>Continuous Integration/Deployment: GitHub CI, Jenkins</li>
-                        <li>Life Cycles: Jira</li>
-                        <li>Other: Conda, DL_POLY Classic, Azure Quantum, .NET</li>
-                    </ul>
-                </div>
-                <div class="list">
-                    <p class="user-blue">Languages:</p>
-                    <ul>
-                        <li>Python</li>
-                        <li>Fortran</li>
-                        <li>C#/C++</li>
-                        <li>Pascal</li>
-                        <li>JavaScript</li>
-                        <li>Other: MATLAB, SQL, HTML, CSS</li>
-                    </ul>
-                </div>
+            <div id="progress-bar-container">
+                <div id="loading-text">0%</div><div id="progress-bar"></div>
             </div>
-            <p>===================<br>
-                |⠀⠀⠀Projects⠀⠀⠀⠀|<br>
+            <div id="content">
+                <pre>
+==============================================================================================================================
+
+  8888888b.                    d8b          888 d8b               .d8888b.  888     888 
+  888  "Y88b                   Y8P          888 88P              d88P  Y88b 888     888                  
+  888    888                                888 8P               888    888 888     888             +44 7548 327122
+  888    888  8888b.  88888b.  888  .d88b.  888 "  .d8888b       888        Y88b   d88P 
+  888    888     "88b 888 "88b 888 d8P  Y8b 888    88K           888         Y88b d88P  
+  888    888 .d888888 888  888 888 88888888 888    "Y8888b.      888    888   Y88o88P               dan.nutter@outlook.com
+  888  .d88P 888  888 888  888 888 Y8b.     888         X88      Y88b  d88P    Y888P    
+  8888888P"  "Y888888 888  888 888  "Y8888  888     88888P'       "Y8888P"      Y8P     
+==============================================================================================================================
+                </pre>                           
+
+                <p>===================<br>
+                |⠀⠀⠀Education⠀⠀⠀⠀|<br>
                 ===================</p>
-            <div class="lists">
-                <div class="list">
-                    <p class="user-blue">Final Year Project</p>
-                    <ul>
-                        <li>Used machine learning to generate accurate and relevant of clip recommendations from a live streamer’s past broadcast.</li>
-                        <li>Utilised DeepFace and CV2 for facial emotion recognition/computer vision, VaderSentiment for sentiment analysis and Google's speech to text API for transcripts.</li>
-                        <li>Created a dataset of scraped Twitch.tv clips for training and validating the predictive model.</li>
-                        <li>Employed Seaborn to generate clear and informative graphs, aiding in the interpretation of findings.</li>
-                    </ul>
+                <div class="lists">
+                <p class = list>
+                    <span class="user-blue">Degree:</span><br>
+                    Coventry University: B.Sc. Computer Science [2023]<br>
+                    2:1 (66%)
+                </p>
+                <p class="list">
+                    <span class="user-blue">Key Modules:</span><br>
+                    Machine Learning and Related Applications, Big Data Programming, Advanced Algorithms, Data Science, Software Engineering, Security, Web API Development.
+                </p>
                 </div>
-                <div class="list">
-                    <p class="user-blue">Entropy Exploration</p>
-                    <ul>
-                        <li>Leveraged DL_POLY for in-depth exploration of the second law of thermodynamics.</li>
-                        <li>Focused on understanding entropy behaviour and studying potential exceptions.</li>
-                        <li>Conducted advanced scientific computational simulations and meticulous data analysis.</li>
-                    </ul>
+                <p>===================<br>
+                |⠀⠀⠀Statement⠀⠀⠀⠀|<br>
+                ===================<br>
+                Leveraging my experience gained during my university studies and side projects, I aim to contribute to the development of impactful software solutions. I hope to expand my knowledge and skills, allowing me to address real-world challenges with a focus on long-term, meaningful impact.</p>
+                <p>===================<br>
+                |⠀⠀⠀⠀Skills⠀⠀⠀⠀⠀|<br>
+                ===================</p>
+                <div class="lists">
+                    <div class="list">
+                        <p class="user-blue">Tools:</p>
+                        <ul>
+                            <li>Version Control: Git</li>
+                            <li>Linux: Software configuration, system administration</li>
+                            <li>Continuous Integration/Deployment: GitHub CI, Jenkins</li>
+                            <li>Life Cycles: Jira</li>
+                            <li>Other: Conda, DL_POLY Classic, Azure Quantum, .NET</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <p class="user-blue">Languages:</p>
+                        <ul>
+                            <li>Python</li>
+                            <li>Fortran</li>
+                            <li>C#/C++</li>
+                            <li>Pascal</li>
+                            <li>JavaScript</li>
+                            <li>Other: MATLAB, SQL, HTML, CSS</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="lists">
-                <div class="list">
-                    <p class="user-blue">EM Wave propagation</p>
-                    <ul>
-                        <li>Developed a simplified simulation for electromagnetic wave propagation using vanilla Fortran.</li>
-                        <li>Applied fundamental principles of electromagnetics to simulate and visualize wave interactions.</li>
-                        <li>Explored the impact of materials on the intensity of electromagnetic waves.</li>
-                    </ul>
+                <p>===================<br>
+                    |⠀⠀⠀⠀Projects⠀⠀⠀⠀|<br>
+                    ===================</p>
+                <div class="lists">
+                    <div class="list">
+                        <p class="user-blue">Final Year Project:</p>
+                        <ul>
+                            <li>Used machine learning to generate accurate and relevant of clip recommendations from a live streamer’s past broadcast.</li>
+                            <li>Utilised DeepFace and CV2 for facial emotion recognition/computer vision, VaderSentiment for sentiment analysis and Google's speech to text API for transcripts.</li>
+                            <li>Created a dataset of scraped Twitch.tv clips for training and validating the predictive model.</li>
+                            <li>Employed Seaborn to generate clear and informative graphs, aiding in the interpretation of findings.</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <p class="user-blue">Entropy Exploration:</p>
+                        <ul>
+                            <li>Leveraged DL_POLY for in-depth exploration of the second law of thermodynamics.</li>
+                            <li>Focused on understanding entropy behaviour and studying potential exceptions.</li>
+                            <li>Conducted advanced scientific computational simulations and meticulous data analysis.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="list">
-                    <p class="user-blue">Meal Planning Mobile App</p>
-                    <ul>
-                        <li>Developed a Meal Planning mobile app using .NET MAUI, emphasizing user recipe management, meal plan generation, and cost tracking.</li>
-                        <li>Optimised local data efficiency with SQLite, enhancing application responsiveness.</li>
-                        <li>Prioritized key objectives: Security, Scalability, User-Friendly design, and Cost-Effectiveness.</li>
-                    </ul>
+                <div class="lists">
+                    <div class="list">
+                        <p class="user-blue">EM Wave propagation:</p>
+                        <ul>
+                            <li>Developed a simplified simulation for electromagnetic wave propagation using vanilla Fortran.</li>
+                            <li>Applied fundamental principles of electromagnetics to simulate and visualize wave interactions.</li>
+                            <li>Explored the impact of materials on the intensity of electromagnetic waves.</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <p class="user-blue">Meal Planning Mobile App:</p>
+                        <ul>
+                            <li>Developed a Meal Planning mobile app using .NET MAUI, emphasizing user recipe management, meal plan generation, and cost tracking.</li>
+                            <li>Optimised local data efficiency with SQLite, enhancing application responsiveness.</li>
+                            <li>Prioritized key objectives: Security, Scalability, User-Friendly design, and Cost-Effectiveness.</li>
+                        </ul>
+                    </div>
                 </div>
+                <p>===================<br>
+                    |⠀Work Experience⠀|<br>
+                    ===================<br>
+                    <span class="user-blue"> ICSkills (April->May 2018) : </span>I gained valuable
+                        insight into the professional development process, in particular the use of
+                        Agile/Kanban boards to aid work within a team.<br>
+                    <span class="user-blue"> Freelance (current) : </span>I freelance as a data analyst, using Python to clean and refine data for improved insights.<br>
+                    <span class="user">Recent work experience in unrelated fields is available upon request.</span>
+                </p>
+                <p>===================<br>
+                |⠀⠀⠀Interests⠀⠀⠀⠀|<br>
+                ===================<br>
+                <span class="user-blue">Chess: </span>Alongside playing casually, I actively volunteer at a local primary
+                        school to provide support to students to help develop their strategic thinking
+                        and problem solving skills through this medium.<br>
+                <span class="user-blue">Varsity Esports: </span>I made meaningful contributions to my university's Overwatch esports
+                        team, actively engaging in regular team meetings to analyse past gameplay with
+                        fellow teammates. This experience allowed me to refine my teamwork and critical
+                        decision-making skills while facilitating a culture of constructive improvement
+                        within the team.
+                </p>
+                
             </div>
         </div>
     </div>

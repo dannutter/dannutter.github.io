@@ -20,8 +20,8 @@ function displayProgressBar() {
 
     // Simulate loading with a timeout
     simulateLoading();
+    let progress = 0;
 }
-
 
 function simulateLoading() {
     const progressBar = document.getElementById("progress-bar");
@@ -29,7 +29,7 @@ function simulateLoading() {
     
     let progress = 0;
     const interval = setInterval(() => {
-        progressBar.textContent += "#";
+        progressBar.textContent = `[${"#".repeat(progress/5+1)}${":".repeat(20-(progress/5+1))}]`;
         progress += 5;
         loadingText.textContent = `${progress}%`;
         if (progress >= 100) {
